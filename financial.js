@@ -29,14 +29,17 @@ let updateWidget2 = function(data) {
         articleTitle = data2.articles["0"].title
         articleLink = data2.articles["0"].url
         articleAuthor = data2.articles["0"].author
+        articleImage = data2.articles["0"].urlToImage
 
         console.log(articleTitle)
         console.log(articleLink)
         console.log(articleAuthor)
+        console.log(articleImage)
 
         $(h42).html(articleTitle)
         $(p2).html(articleAuthor)
         $(l2).html(articleLink)
+        $('#imager2').attr('src',articleImage)
 }
 
 
