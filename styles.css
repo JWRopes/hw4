@@ -1,0 +1,22 @@
+/* Your CSS rules go here */
+ /* div { border: solid 1px red; padding: 12px; } */ */
+
+.jumbotron {
+    margin-bottom: 0px;
+    background-position:center;
+    background-size: cover;
+    padding:200px 0 140px 0;
+    margin-bottom:70px;
+}
+
+body {
+    font-family: arial
+    background-color: black
+}
+
+div {
+    padding-top: 1px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+}
